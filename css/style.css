@@ -1,0 +1,726 @@
+@charset "uft-8";
+
+/*共通部分*/
+html{
+    font-size: 100%;
+}
+body{
+    position: relative;
+    font-family: "Yu Gothic Medium" ,"游ゴシック Medium" ,YuGothic, "游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*header*/
+
+.background{
+    position: absolute;
+    top: 300px;
+    height: 650px;
+    background-color: #E5E5E5;
+    width: 100%;
+    z-index: -50;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.page-header{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+.header-menu{
+    color: #765B63;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+}
+.header-menu:hover{
+    color: #C19CA2;
+}
+h1{
+    font-weight: normal;
+    padding: 0 20px;
+    font-size: 40px;
+}
+.logo{
+    color: #765B63;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*big-ga---------------------------------------*/
+
+.frame1{
+    margin: 0 auto;
+    width: 80%;
+    height: 550px;
+    position: relative;
+}
+.main-ga{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.big-title{
+    position: absolute;
+    top: 300px;
+    left: -50px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.home-contents{
+    position: relative;
+}
+.home-title{
+    position: absolute;
+    left: 40px;
+    top: -30px;
+    transform: rotate(-12deg);
+    font-size: 55px;
+    font-family: 'Oooh Baby', cursive;
+    color: #765B63;
+}
+.home-text{
+    font-size: 16px;
+    color: #fff;
+    background-color: #C19CA2;
+    padding: 50px 50px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+/*teian-------------------------------------*/
+
+.teian{
+    margin: 120px auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+.teian-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.teian-imgbox{
+    width: 50%;
+    height: 300px;
+}
+.teian-img{
+    vertical-align: bottom;
+    object-fit: cover;
+    height: 100%;
+
+}
+.teian-textbox{
+    margin-left: 50px;
+}
+.teian-title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.teian-text{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.teian-button{
+    font-size: 16px;
+    color: #fff;
+    background-color: #765B63;
+    text-align: center;
+    padding: 10px 35px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.teian-button:hover{
+    background-color: #C19CA2;
+}
+
+/*osusume-------------------------------------*/
+
+.osusume{
+    position: relative;
+    background-color: #E5E5E5;
+    height: auto;
+}
+.osusume-titlebox{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.mojiyoko{
+    height: 1px;
+    width: 50px;
+    border: none;
+    background-color: #765B63;
+    margin-top: 16px;
+}
+.osusume-title{
+    font-size: 24px;
+    margin: 0 10px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.osusume-contents{
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.osusume-box{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.osusume-textcon{
+    width: 70%;
+}
+.osusume-textbox1{
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    height: 160px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.osusume-textbox2{
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    height: 160px;
+    margin: 15px 0 ;
+    align-items: center;
+    padding: 10px;
+}
+.osusume-textbox3{
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    height: 160px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.osusume-mibox{
+    position: relative;
+}
+.number{
+    position: absolute;
+    left: -70px;
+    font-size: 40px;
+    color: #765B63;
+    font-family: 'Oooh Baby', cursive;
+    transform: rotate(-12deg);
+}
+.osusume-mi{
+    border-left: 1px solid #765B63;
+    padding: 0px 20px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.osusume-text{
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 14px;
+    width: 50%;
+}
+.osusume-gabox{
+    width: 30%;
+    height: 540px;
+    margin-left: 50px;
+}
+.osusume-ga-p{
+    position: absolute;
+    top: 550px;
+    left: 70%;
+    color: #fff;
+    transform: rotate(-12deg);
+    font-size: 55px;
+    font-family: 'Oooh Baby', cursive;
+}
+.osusume-ga{
+    object-fit: cover;
+    height: 100%;
+}
+
+/*stuff--------------------------------------*/
+
+.stuff{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.stuff-titlebox{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px 0;
+}
+.stuff-title{
+    font-size: 24px;
+    margin: 0 10px;
+    color: #765B63;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+}
+.stuff-sho{
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.stuff-grid1{
+    background-color: #C19CA2;
+    width: 33%;
+    height: 450px;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+.stuff-grid2{
+    background-color: #C19CA2;
+    width: 33%;
+    height: 450px;
+    padding: 20px 20px;
+    margin: 0 10px;
+}
+.stuff-grid3{
+    background-color: #C19CA2;
+    width: 33%;
+    height: 450px;
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+.stuff-gabox{
+    width: 100%;
+    height: 300px;
+}
+.stuff-ga{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.stuff-name{
+    margin-top: 45px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+.stuff-button{
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    display: block;
+    letter-spacing: 1px;
+    background-color: #765B63;
+    padding: 15px 30px;
+    width: 250px;
+}
+.stuff-button:hover{
+    background-color: #C19CA2;
+}
+
+/*news--------------------------------------*/
+
+.news-back{
+    background-color: #E5E5E5;
+    padding-bottom: 120px;
+}
+.news-titlebox{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px 0;
+}
+.news-title{
+    font-size: 24px;
+    margin: 0 10px;
+    color: #765B63;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.news-contents{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    padding: 40px 100px;
+}
+.news-day{
+    width: 40%;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.news-mi{
+    width: 60%;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.news-hr{
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    height: 1px;
+    border: none;
+    background-color: #765B63;
+}
+
+/*info---------------------------------------*/
+
+.infobox{
+    text-align: center;
+    margin: 80px auto;
+}
+.info{
+    margin-bottom: 20px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.tell{
+    margin-bottom: 20px;
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.info2{
+    color: #765B63;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/*footer-------------------------------------*/
+
+footer{
+    background-color: #765B63;
+    padding: 50px 0;
+}
+
+.menu-bar{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menu-bar a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.snsbox{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.copy{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*モバイル版------------------------------------*/
+
+@media(max-width:600px){
+
+    .page-header{
+        padding: 20px 0;
+    }
+    .h1{
+        padding: 0 5px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .header-menu{
+        font-size: 10px;
+        padding: 0 5px;
+    }
+  
+
+    .frame1{
+        width: 90%;
+    }
+    .big-title{
+        left: -25px;
+    }
+    .home-title{
+        font-size: 40px;
+        left: 10px;
+        top: -20px;
+    }
+    .home-text{
+        width: 90%;
+        margin-top: 80px;
+        font-size: 16px;
+    }
+
+    /*teian-----------------------------*/
+
+    .teian{
+        margin: 80px 0;
+    }
+    .teian-container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .teian-imgbox{
+        width: 100%;
+        height: 300px;
+    }
+    .teian-img{
+        width: 100%;
+    }
+    .teian-textbox{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    /*osusume---------------------------*/
+
+    .osusume-contents{
+        padding-bottom: 80px;
+    }
+    .osusume-box{
+        width: 90%;
+        flex-direction: column;
+    }
+    .osusume-title{
+        font-size: 20px;
+        margin: 0 8px;
+    }
+    .mojiyoko{
+        margin-top: 14px;
+    }
+    .osusume-textcon{
+        width: 100%;
+    }
+    .osusume-mi{
+        margin-bottom: 20px;
+       margin-left: -60px;
+    }
+    .number{
+        left: -130px;
+    }
+    .osusume-textbox1{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 30px 20px 30px;
+        margin-bottom: 20px;
+    }
+    .osusume-textbox2{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 30px 20px 30px;
+        margin: 10px 0;
+    }
+    .osusume-textbox3{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 30px 20px 30px;
+        margin-top: 20px;
+    }
+    .osusume-text{
+        width: 100%;
+    }
+    .osusume-gabox{
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .osusume-ga{
+        width: 100%;
+        height: 100%;
+    }
+    .osusume-ga-p{
+        top: 1300px;
+        left: 20%;
+        font-size: 70px;
+    }
+
+    /*stuff--------------------------------*/
+
+
+    .stuff-title{
+        font-size: 20px;
+        margin: 0 5px;
+        color: #765B63;
+    }
+    .stuff-sho{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+   .stuff-grid1{
+    padding: 5px;
+    margin-right: 5px;
+    height: 200px;
+   }
+   .stuff-grid2{
+    padding: 5px;
+    margin: 0 5px;
+    height: 200px;
+   }
+   .stuff-grid3{
+    padding: 5px;
+    margin-left: 5px;
+    height: 200px;
+   }
+   .stuff-gabox{
+    width: 100%;
+    height: 150px;
+   }
+   .stuff-name{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+    }
+    .stuff-button{
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 10px 15px;
+        width: 220px;
+    }
+
+    /*news----------------------------------*/
+
+    .news-back{
+        padding-bottom: 80px;
+    }
+    .news-titlebox{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .news-title{
+        font-size: 20px;
+        margin: 0 5px;
+        color: #765B63;
+    }
+    .news-contents{
+        width: 90%;
+        padding: 30px 30px;
+    }
+    .news-day{
+        font-size: 14px;
+    }
+    .news-mi{
+        width: 60%;
+        font-size: 14px;
+    }
+    .news-hr{
+        width: 90%;
+        height: 1px;
+    }
+
+    /*info------------------------------*/
+
+    .infobox{
+        margin: 80px auto;
+    }
+    .info{
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    .tell{
+        margin-bottom: 15px;
+    }
+    .info2{
+        font-size: 14px;
+    }
+
+    /*footer------------------------------*/
+    
+    .menu-bar{
+        margin-bottom: 25px;
+    }
+    .menu-bar a{
+        margin: 0 10px;
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 1.4px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .snsbox{
+        margin-bottom: 25px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+    .copy{
+        font-size: 12px;
+    }
+}
